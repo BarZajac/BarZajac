@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 
-	if add(10, 20) <= 10 {
+	if add(20, 20) <= 10 {
 		fmt.Println("Variable a is smaller than 10")
 	} else {
-		fmt.Println(add(10, 20), "is bigger than 10")
+		fmt.Println(add(20, 20), "is bigger than 10")
 	}
 
 }
